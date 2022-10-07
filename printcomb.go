@@ -44,4 +44,3 @@ for i=0; i<=9; i++				(Boucle i)
 				print (i,j,k)
 
 */
-32
