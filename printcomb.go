@@ -39,6 +39,6 @@ for i=0; i<=9; i++				(Boucle i)
 	for j=0; j<=9 j++			(Boucle j)
 		for k=0; i<=9 k++		(Boucle K)
 			if i < j && j < k    (regle (i) plus peti que (j) et = (&&) (j) plus petit que (k))
-				print (i,j,k)
+				 (i,j,k)
 
 */
