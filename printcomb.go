@@ -3,29 +3,27 @@ package piscine
 import "github.com/01-edu/z01"
 
 func PrintComb() {
-	for i := 48; i <= 57; i++ {
-		a := rune(i)
-
-		for j := 48; j <= 57; j++ {
-			b := rune(j)
-
-			for k := 48; k <= 57; k++ {
-				c := rune(k)
-
+	for i := 0; i <= 9; i++ {
+		for j := 0; j <= 9; j++ {
+			for k := 0; k <= 9; k++ {
 				if i < j && j < k {
-					z01.PrintRune(a)
-					z01.PrintRune(b)
-					z01.PrintRune(c)
-					if i == 55 && j == 56 && k == 57 {
-						z01.PrintRune(10)
+					z01.PrintRune( get_digit(i) )
+					z01.PrintRune( get_digit(j) )
+					z01.PrintRune( get_digit(k) )
+					if i == 7 && j == 8 && k == 9 {
+						z01.PrintRune('\n')
 					} else {
-						z01.PrintRune(44)
-						z01.PrintRune(32)
+						z01.PrintRune(',')
+						z01.PrintRune(' ')
 					}
 				}
 			}
 		}
 	}
+}
+
+func get_digit(number int) rune {
+	return rune(number + 48)
 }
 
 /*
