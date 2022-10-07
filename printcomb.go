@@ -7,9 +7,9 @@ func PrintComb() {
 		for j := 0; j <= 9; j++ {
 			for k := 0; k <= 9; k++ {
 				if i < j && j < k {
-					z01.PrintRune( get_digit(i) )
-					z01.PrintRune( get_digit(j) )
-					z01.PrintRune( get_digit(k) )
+					z01.PrintRune(get_digit(i))
+					z01.PrintRune(get_digit(j))
+					z01.PrintRune(get_digit(k))
 					if i == 7 && j == 8 && k == 9 {
 						z01.PrintRune('\n')
 					} else {
