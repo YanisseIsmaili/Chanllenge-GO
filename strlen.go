@@ -1,10 +1,7 @@
 package piscine
 
-import "github.com/01-edu/z01"
-
-func StrLen(s string) {
+func StrLen(s string) int {
 	s_rune := []rune(s)
-	size := len(s_rune)
-	return size
-	}
-
+	si := len(s_rune)
+	return si
+}

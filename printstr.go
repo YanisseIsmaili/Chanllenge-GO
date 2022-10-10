@@ -8,5 +8,4 @@ func PrintStr(s string) {
 	for i := 0; i < (size); i++ {
 		z01.PrintRune(s_rune[i])
 	}
-	
 }
