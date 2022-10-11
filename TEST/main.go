@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	l := piscine.StrLen("Hello World!")
-	fmt.Println(l)
+	fmt.Println(piscine.Compare("Hello!", "Hello!"))
+	fmt.Println(piscine.Compare("Salut!", "lut!"))
+	fmt.Println(piscine.Compare("Ola!", "Ol"))
 }
