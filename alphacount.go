@@ -13,15 +13,15 @@ func AlphaCount(s string) int {
 
 /*
 - resulta : le nombre de caracteres de l'alphabet qu'il y a au total
-- 1 condition : ne doit pas avoir les nombre 
+- 1 condition : ne doit pas avoir les nombre
 - 2 condition : pas  avoir de chifre / caractere spesiaux espce vide
 
-string = nombre de charactere 
+string = nombre de charactere
 k = conteur permeten de compter les characteur alphabetique
 int = si tu utilise des nombre infini - infini + nobre negatif pas de virguele
 
 - for = parcourire un tableaux
-- (_) = pas de changeman du tableaux 
+- (_) = pas de changeman du tableaux
 - (i) = index du tableaux
 - (r) = variable
 - range = taille
@@ -29,7 +29,7 @@ int = si tu utilise des nombre infini - infini + nobre negatif pas de virguele
 
 - if = donner des condition
 - r = variable definisant la taille de mon tableaux
-- >= = superieur ou egale 
+- >= = superieur ou egale
 - 65 = valeur ascci A maj
 - && = et
 - <= = inferieur et egal
@@ -38,14 +38,14 @@ int = si tu utilise des nombre infini - infini + nobre negatif pas de virguele
 - r = variable definisant la taille de mon tableaux
 - >= = plus grant et egal
 - 97 = valeur ascci de a en miniscul
-- && = et 
+- && = et
 - r = variable definisant la taille de mon tableaux
 - <= = superieur et egale
 - 122 = valeur ascci de z miniscul
- 
+
 - ! = diferent
 - k++ = ajouter 1 a k
 - == = strictmen egale
 - += = ajout d une valeur a une valeur
 - -= = retire une valeur a une valeur
-/*
+*/
