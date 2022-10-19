@@ -9,7 +9,7 @@ func IsRuneDigit(r rune) bool {
 
 func TrimAtoi(s string) int {
 	var neg bool = false
-	var empty bool = true
+	var empty bool = true	
 	var res int = 0
 	for _, v := range s {
 		if empty && !neg && v == '-' {
