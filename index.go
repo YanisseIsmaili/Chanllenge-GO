@@ -38,4 +38,3 @@ func NbretoFind(s string) int {
 	}
 	return compteur
 }
-
