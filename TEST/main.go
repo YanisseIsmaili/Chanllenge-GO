@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	toConcat := []string{"Hello!", " How", " are", " you?"}
-	fmt.Println(piscine.Join(toConcat, ":"))
+	arg := 4
+	fmt.Println(piscine.IterativeFactorial(arg))
 }
