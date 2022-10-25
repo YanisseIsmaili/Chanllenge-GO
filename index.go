@@ -1,6 +1,5 @@
 package piscine
 
-
 func Index(s string, toFind string) int {
 	var index int
 	for i := 0; i < len(s); i++ {
