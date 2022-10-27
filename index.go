@@ -17,7 +17,7 @@ func Index(s string, toFind string) int {
 						}
 					}
 					if secondIndex == strtofind {
-						return i1
+					  	return i1
 					}
 				} else {
 					return -1
